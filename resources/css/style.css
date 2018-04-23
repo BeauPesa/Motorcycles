@@ -47,7 +47,7 @@ img {
   height: 100px;
   margin-bottom: 30px;
   margin-top: 40px;
-  margin-left: 30px;
+  margin-left: 0px;
 }
 
 /* BODY */
@@ -132,6 +132,14 @@ img {
   background-color: darkred;
   transition: 1s;
 }
+
+#pen, #watch, #glasses {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* BUTTONS */
 
