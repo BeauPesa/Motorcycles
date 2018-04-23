@@ -50,6 +50,10 @@ img {
   margin-left: 0px;
 }
 
+span {
+  color: black;
+}
+
 /* BODY */
 
 .motorcycle__image {
@@ -148,11 +152,11 @@ img {
 /* BUTTONS */
 
 .button__containter {
-  margin: 0 10%;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+
+  
+
 
 }
 
@@ -196,7 +200,7 @@ img {
   justify-content: flex-start;
   align-items: center;
   background-color: black;
-  margin-left: 180px;
+  margin-left: 200px;
 }
 
 #hours:hover {
