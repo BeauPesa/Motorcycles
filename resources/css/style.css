@@ -134,6 +134,7 @@ img {
 }
 
 #pen, #watch, #glasses {
+  height: 200px;
   display: flex;
   flex-direction: row;
   justify-content: center;
