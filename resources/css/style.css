@@ -1,4 +1,12 @@
 /* UNIVERSAL STYLES */
+html {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
 
 body {
   font-family: "Helvetica", "sans-serif";
@@ -53,22 +61,22 @@ span {
   font-size: 15px;
   color: white;
   padding-left: 20px;
+
 }
 
 /* BODY */
 
 .motorcycle__image {
-  display: flex;
-  flex-direction: row;
-  jusfity-content: center;
-  align-items: center;
-  /*border: 1px white solid;*/
-  width: auto;
-  height: 400px;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  height: 25rem;
+}
 
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .mototitle {
@@ -83,7 +91,12 @@ span {
 }
 
 .mototext {
-  margin-left: 20px;
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+  padding: 2rem 3rem;
+  background-color: black;
+  color: white;
 }
 
 /* NAVIGATION */
